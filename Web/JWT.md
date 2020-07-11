@@ -4,7 +4,8 @@ JWT 토큰은 일반적으로 Request Header(Authorization에 Bearer 스키마)�
 
 
 ## 구성
-토큰은 .을 기준으로 Header.Payload.Signature 3 부분으로 구성되고 각 부분의 내용은 `Base64Url` 인코딩된다.
+토큰은 .을 기준으로 Header.Payload.Signature 3 부분으로 구성되고 각 부분의 내용은 `Base64Url` 인코딩된다.  
+
 `Header` : 토큰의 타입(JWT), 사용된 서명 알고리즘
 ```JSON
 {
@@ -22,7 +23,8 @@ JWT 토큰은 일반적으로 Request Header(Authorization에 Bearer 스키마)�
 ```
 `Signature` : 인코딩 된 헤더, 페이로드, Secret, 헤더에 정의된 서명 알고리즘을 사용하여 서명한다. 
 
-만들어진 JWT
+
+생성된 JWT
 ```
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 ```
