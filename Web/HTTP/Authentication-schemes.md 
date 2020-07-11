@@ -1,0 +1,13 @@
+## Authentication schemes
+서버에 인증시 Request Header의 Authorization type  
+Authorization : **\<type>** \<credentials>
+
+`Basic` : ID/PW가 base64로 인코딩 된 credentials  
+`Bearer` : OAuth 2.0으로 보호 된 credentials, 서버에 의해 생성된 토큰을 이용  
+`Digest` : Basic 인증의 약점을 보완, 암호화하여 전송
+
+모든 인증 방식은 Https/TLS 등 추가 보안이 필요하다.
+
+---
+### Reference
+_HTTP authentication_. https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication
