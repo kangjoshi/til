@@ -12,7 +12,7 @@
 
 ## Http Request Header
 `Origin` : Request가 시작된 서버(출처)를 나타낸다  
-`Access-Control-Request-Method` : Preflight에서 실제 요청의 Method를 서버에 알려주기 위해 사용
+`Access-Control-Request-Method` : Preflight에서 실제 요청의 Method를 서버에 알려주기 위해 사용  
 `Access-Control-Request-Headers` : Preflight에서 실제 요청의 Header를 서버에 알려주기 위해 사용
 
 ## Http Response Header
