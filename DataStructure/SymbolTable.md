@@ -17,8 +17,10 @@
 ---
 ### Repository
 https://github.com/kangjoshi/data-structure.git  
-1. 비순차  
-    https://github.com/kangjoshi/data-structure/blob/master/src/main/java/SequentialSymbolTable.java  
-    https://github.com/kangjoshi/data-structure/blob/master/src/test/java/SequentialSymbolTableTest.java  
+1. 비순차 [Code](https://github.com/kangjoshi/data-structure/blob/master/src/main/java/SequentialSymbolTable.java), [Test](https://github.com/kangjoshi/data-structure/blob/master/src/test/java/SequentialSymbolTableTest.java)  
 1. 순차  
     추후 구현
+    
+---
+### Reference
+로버트세지윅, 케빈웨인. _Algorithms Fourth Edition_. 길벗  
