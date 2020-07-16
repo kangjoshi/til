@@ -33,11 +33,13 @@ public int hash(K key) {
 
 개별 체이닝
 - 해시를 통한 배열 인덱스 값이 같은 복수의 항목을 연결리스트로 관리
+- 어떤 크기(해시 테이블의 크기)를 지정해도 탄력적이다. 즉 기대했던것 보다 좀 더 많은 키가 삽입되면 탐색 시간이 조금 더 느려질 뿐이고 더 적은 키가 삽입되고 약간의 공간만 낭비 된다는 문제만 가지고 있다.
 - [Code](https://github.com/kangjoshi/data-structure/blob/master/src/main/java/SeparateChainingHashtable.java), [Test](https://github.com/kangjoshi/data-structure/blob/master/src/test/java/SeparateChainingHashtableTest.java)
       
 선형 탐지를 이용한 해싱
-- 추후 구현
-
+- 테이블의 크기가 저장할 키의 수보다 큰 경우 해시 값이 충돌 날 때 존재하는 빈 공간에 의존하여 충돌을 해소(개방형 주소 지정 해싱)
+- 메모리 공간을 연결 리스트에 허비하는 대신 해시 테이블의 키 저장 공간에 사용 하는것.
+- [Code](https://github.com/kangjoshi/data-structure/blob/master/src/main/java/hashtable/LinearProbingHashtable.java), [Test](https://github.com/kangjoshi/data-structure/blob/master/src/test/java/hashtable/LinearProbingHashtableTest.java)
 
 ### Repository
 https://github.com/kangjoshi/data-structure.git  
