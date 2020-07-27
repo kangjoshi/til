@@ -71,7 +71,6 @@ public class PrintBanner implements Print {
     }
 ```
 
----
 ### Repository
 https://github.com/kangjoshi/DesignPattern/tree/master/src/main/java/adapter
 
