@@ -34,3 +34,9 @@ MIME Type (Content-type)
 	- multipart/form-data, multipart/mixed
 ```
 
+
+
+### 회고
+
+웹 개발자로서 MIME type이 왜 필요한지 생각 해본적이 없었다. 진행하는 프로젝트에서 각 파일들이 어떤 MIME type을 가지는지 그에 따른 브라우저에서 기본동작이 어떻게 이루어지는지 확인 해봐야겠다.
+
