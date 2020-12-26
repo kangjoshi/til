@@ -11,7 +11,7 @@
 work_processes	1; 					<- 엔진엑스가 단일 작업자 프로세스로 동작하도록 설정
 
 includ mime.types;					<- 지정된 파일을 인클루드시킨다. mime.types : 파일 확장자와 연관된 MIME 타입의 목록
-																				 *로 패턴에 맞는 파일명을 지정하는 방식도 지정한다. include sites/*.conf;
+							   *로 패턴에 맞는 파일명을 지정하는 방식도 지정한다. include sites/*.conf;
 
 event {						        <- event 모듈의 블록
 	worker_connections	1024;			<- work_connections는 events 모듈에서만 영향을 미친다. 서버 전반에 영향을 미치는 
